@@ -2,7 +2,7 @@
 
 A sleek and modern portfolio tracker built with HTML, CSS, and JavaScript to help users monitor stock investments.
 
-# Features
+## Features
 
 Dark-themed responsive UI
 
@@ -18,7 +18,7 @@ Smooth animations and hover effects
 
 Fully responsive design for mobile and desktop
 
-# Technologies Used
+## Technologies Used
 
 HTML
 
@@ -26,7 +26,7 @@ CSS (Animations, Transitions, Media Queries)
 
 JavaScript
 
-# Customization
+## Customization
 
 Modify styles.css to change the theme or animations.
 
@@ -34,7 +34,7 @@ Update script.js to add new interactive features.
 
 Customize the chart appearance in chart.js.
 
-# Future Enhancements
+## Future Enhancements
 
 Integration with stock market API for real-time data
 
