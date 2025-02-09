@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Portfolio Tracker</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stock Portfolio Tracker</h1>
+            <div class="portfolio-summary">
+                <div class="summary-item">
+                    <span class="label">Total Value</span>
+                    <span class="value" id="totalValue">$0.00</span>
+                </div>
+                <div class="summary-item">
+                    <span class="label">Today's Change</span>
+                    <span class="value" id="totalChange">$0.00</span>
+                </div>
+            </div>
+        </header>
+
+        <form id="stockForm" class="stock-form">
+            <div class="input-group">
+                <input type="text" id="symbolInput" placeholder="Enter stock symbol (e.g., AAPL)" required>
+                <input type="number" id="quantityInput" placeholder="Quantity" min="1" value="1" required>
+                <button type="submit">Add Stock</button>
+            </div>
+            <div id="errorMessage" class="error-message"></div>
+        </form>
+
+        <div class="chart-container">
+            <canvas id="stockChart"></canvas>
+        </div>
+
+        <div class="stocks-container">
+            <table id="stocksTable">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Company</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                        <th>Value</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="stocksList"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
