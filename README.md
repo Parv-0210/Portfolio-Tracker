@@ -4,15 +4,11 @@ A sleek and modern portfolio tracker built with HTML, CSS, and JavaScript to hel
 
 ## Features
 
-Dark-themed responsive UI
-
-Stock portfolio summary with key statistics
-
-Interactive stock input form
-
-Animated stock performance charts
-
-Real-time stock price changes with color indicators
+- Dark-themed responsive UI
+- Stock portfolio summary with key statistics
+- Interactive stock input form
+- Animated stock performance charts
+- Real-time stock price changes with color indicators
 
 Smooth animations and hover effects
 
